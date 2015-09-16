@@ -12,5 +12,3 @@ POS = inquisition.SPANISH.index('Spanish')
 REPLACE = 'Flemish'
 
 FLEMISH = inquisition.SPANISH[:POS] + REPLACE + inquisition.SPANISH[POS+WORDCNT:]
-
-print FLEMISH
