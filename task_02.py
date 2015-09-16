@@ -5,10 +5,10 @@
 
 import inquisition
 
-WORDCNT = len('Spanish')
+WRDCT = len('Spanish')
 
 POS = inquisition.SPANISH.index('Spanish')
 
-REPLACE = 'Flemish'
+REPLCE = 'Flemish'
 
-FLEMISH = inquisition.SPANISH[:POS] + REPLACE + inquisition.SPANISH[POS+WORDCNT:]
+FLEMISH = (inquisition.SPANISH[:POS] + REPLCE + inquisition.SPANISH[POS+WRDCT:])
